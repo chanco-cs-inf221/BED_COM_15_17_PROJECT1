@@ -1,0 +1,100 @@
+*{
+margin: 0px
+padding : 0px
+}
+body{
+    background-color: aqua
+}
+#heading{
+    text-align: center;
+    
+}
+#image1{
+height: 250px;
+float: right;
+    
+}
+.submitform{
+    position: absolute;
+    top: 10px;
+    right:80%
+}
+
+.home{
+  
+    position: relative;
+    left: 30%;
+    top: 20px;
+    height: 40vh;
+    width: 100%;
+  }
+  .home ul {
+      float: left;
+      list-style: none;
+  }
+  .home ul li{
+      display: inline-block;
+      padding: 5px;
+  }
+  h1{
+      text-align: center;
+      color: rgb(67, 19, 201);
+      
+      
+  }
+  #navigation{
+    background-color:chartreuse; width:15%"
+  } 
+  #naviAnimi{
+   display:inline-block
+  }
+  
+.slider{
+    position: absolute;
+    width: 500px;
+    height: 250px;
+    top: 55%;
+    left: 70%;
+    animation: slide 10s infinite linear;
+}
+@keyframes slide{
+    0%{
+      background-image: url(../images/download.jfif)  
+    }
+    25%{
+        background-image: url(../images/download\ \(1\).jfif)
+    }
+    50%{
+        background-image: url(../images/download\ \(2\).jfif)
+    }
+    75%{
+        background-image: url(../images/download\ \(4\).jfif)
+    }
+}
+
+
+#slider{
+    position: absolute;
+    width: 500px;
+    height: 250px;
+    top: 55%;
+    left: 70%;
+    animation: slide 10s infinite linear;
+}
+@keyframes slide{
+    0%{
+      background-image: url(../images/download.jfif)  
+    }
+    25%{
+        background-image: url(../images/download\ \(1\).jfif)
+    }
+    50%{
+        background-image: url(../images/download\ \(2\).jfif)
+    }
+    75%{
+        background-image: url(../images/download\ \(4\).jfif)
+    }
+}
+ 
+
+ 

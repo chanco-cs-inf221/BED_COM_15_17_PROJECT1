@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+        <script  lang="javascript" src="projectJavaScript/bed_com_15_17_project.js"></script>
+    <link rel="stylesheet" href="../Project/projectCss/index.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Welcome To Online Hospital</title>
+   
+</head>
+<body>
+    <div id="heading">
+    
+           <img id="image1" src="../Project/images/index.jfif" alt="icon"> <h1><strong><mark>ONLINE 
+                    HOSPITAL</mark></strong></h1>
+                    <h2 style="text-align:center"><italic>....Queuless,Time saving,money saving,relaible...</italic></h2>
+    </div>
+    <div class="home" id="home">
+    
+            <ul >
+                    <li><a href="index.html">HOME</a></li>
+                <li><a  href="privateDoctors.html">PRIVATE DOCTORS</a></li>
+                <li><a href="healthSchemes.html">   MEDICAL SCHEMES</a></li>
+                <li><a href="FinacialHelp.html">FINANCIAL HELP</a></li>
+                <li><a href="HIV.html">HIV/AIDS SPECIAL</a></li>
+            </ul>
+        </div>
+   
+    <div class="submitform">
+        <form  name="myForm"  onsubmit="return submitMessage()" method="post">
+            
+                <input style="border-color:black" type="text" name="searchText"  placeholder="search disease,doctor's name or hospital ">
+                  <input id="searchBtn" type="submit" value="search">
+              
+         </form>
+      </div>
+      <div id="naviAnimi">
+      <div id="navigation" >
+           
+           <legend><h2>NAVIGATION:</h2></legend>
+            <ul>
+                
+                    <h5>  <a href="commonDiseases.html"> COMMON DISEASES</a></h5>
+                    <h5><a href="#news">NEWS</a></h5>
+                    <h5><a href="#signup">SIGNUP</a></h5>
+
+               </ul>
+       
+        </div>
+        <div id="main">
+            
+            
+                <p>This is the widest online health service developed to provide all the neccessary help onje may require here in Malawi.</p>
+                    <br/>
+                    <p>
+                        Since its establishment <strong style="color:red">ONLINE HOSPITAL</strong> has been a miracle to millions of Malawians as they get help they 
+                        can get at any hospital.Most non-Malawians who always struggle to locate thier nearest healthy centers have 
+                        found online hospital site very helpful as it also indicates locations of different health centers in all the 
+                        districts of Malawi.
+                    </p>
+            </div>
+        <div class="slider"> 
+             
+            </div>
+        </div>
+       
+             <div id="NEWS">  
+                 <fieldset>
+          <legend>  
+            NEWS FROM ALL AROUND THE WORLD</legend>
+           <img src="./images/worldAidsDay.jfif" alt="worldAidsDay">
+           <img src="./images/ebola.jfif" alt="worldAidsDay">
+           <img style="width:230px;height:200px" src="./images/ebolaoutbreak.jfif" alt="worldAidsDay">
+           <img src="./images/worldAidsDay.jfif" alt="worldAidsDay">
+           <img src="./images/worldAidsDay.jfif" alt="worldAidsDay">
+        </fieldset>
+             </div>
+        <div>
+
+            <div id="signup" class="signup">
+                <form name="forms" id="form">
+                    <h3>Interested in recieveing updates and news??..</h3>
+                         <h2 class="online">SIGN UP</h2>
+                        <label> Username: </label> <input id="usernameId" style="border-color:aqua" type="" name="Username" placeholder=" your username"><br> <br>
+                        <label> Email :</label> <input id="emailId" type=""style="border-color:aqua"  name="email" style="border-color:aqua" placeholder="email address"><br><br>
+                        <label> Phone number :</label> <input id="phone" style="border-color:aqua" type="phoneNumber" name="number" placeholder="mobile number"><br><br>
+                        <label> Date of birth :</label> <input type="date" style="border-color:aqua" name="date" id="Date" min="2019-04-19"><br><br>
+                        <label>Nationality:</label> <input type="text"style="border-color:aqua" name="nationality" id="nationalityId" placeholder="nationality" min="1A" max="6A"><br><br>
+                        <input type="button" onclick="signup();" name=" submit" id="submit" value="submit"> 
+                      </form>
+           </div>
+            <div class="status">
+                    <p id="statusId"></p>
+
+
+                    <div><a href="#home">Back Top</a>
+                        
+                    </div>
+            </div>
+        </div>
+</body>
+</html>

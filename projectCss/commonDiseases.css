@@ -1,0 +1,16 @@
+*{
+    background-color: blueviolet
+}
+#navigation{
+    width: 180px
+    float: left;
+}
+#navigation h5{
+    color: red
+}
+
+#navigation ul{
+    list-style-type: none;
+    padding: 0%
+    border-bottom:1px solid black;
+}

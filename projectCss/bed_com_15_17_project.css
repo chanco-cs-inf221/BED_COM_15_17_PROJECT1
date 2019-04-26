@@ -1,0 +1,119 @@
+*{
+    
+    padding: 0%;
+  
+}
+body{
+    background-color:cornflowerblue;
+    
+    
+ 
+}
+
+.home{
+  
+  position: relative;
+  left: 30%;
+  top: 20px;
+  height: 40vh;
+  width: 100%;
+}
+.home ul {
+    float: left;
+    list-style: none;
+}
+.home ul li{
+    display: inline-block;
+    padding: 5px;
+}
+h1{
+    text-align: center;
+    color: rgb(67, 19, 201);
+    
+    
+}
+.submitform{
+    position: absolute;
+    top: 40px;
+    left:80%
+}
+.slider{
+    position: absolute;
+    width: 400px;
+    height: 190px;
+    top: 55%;
+    left: 70%;
+    animation: slide 10s infinite linear;
+}
+@keyframes slide{
+    0%{
+      background-image: url(../images/queens.jpg)  
+    }
+    25%{
+        background-image: url(../images/hospital2.jfif)
+    }
+    50%{
+        background-image: url(../images/hospital4.jfif)
+    }
+    75%{
+        background-image: url(../images/hospital5.jfif)
+    }
+}
+#sideBar{
+    position: fixed;
+    width: 200px;
+    height: 100%;
+    background: rgb(31, 31, 25)
+}
+#sideBar ul li{
+color: rgb(43, 11, 160);
+list-style: none;
+
+border-bottom: 1px solid rgb(12, 66, 167);
+}
+
+#searchBtn{
+    color: blue;
+}
+#container{
+    width: 100%;
+ margin: auto;
+   
+}
+
+#navigation{
+    width: 180px;
+    float: left;
+    border-bottom-right-radius:1px black; 
+    
+}
+#navigation h5{
+    color: red
+}
+#content{
+    padding: 20px;
+
+}  
+#navigation ul{
+    list-style-type: none;
+    padding: 0%;
+   
+
+}
+#main{
+    width: 600px;
+    padding: 10px;
+    float: left;
+  
+}
+#footer{
+  clear:both;
+  background-color:blueviolet;
+  text-align: center;
+  padding: 10px;
+  height: 100px;
+ }
+ #news{
+    
+    
+ }
